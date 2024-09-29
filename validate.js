@@ -29,8 +29,6 @@ function SingUp(){
 
         localStorage.setItem('email', user_email);
         localStorage.setItem('password',user_password);
-        location.href = "appointment.html";
-        window.location.assign('appointment.html');
         alert("Success, please proceed to sign in Page to book Appointment");
 }
 
