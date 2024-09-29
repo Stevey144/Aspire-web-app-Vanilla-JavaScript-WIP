@@ -50,44 +50,6 @@
 
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-     $(document).ready(function() {
-
-// jQuery click event for the button
-$('#btn-sign-in').on('click', function(event) {
-        event.preventDefault(); // Prevent default form submission
-
-var user_email;
-var user_password;
-
-var get_Local_Storage_email;
-var get_Local_Stroage_password;
-
-
-var user_email = $('#Email').val();
-var user_password = $('#Password').val();
-
-
-get_Local_Storage_email = localStorage.getItem('email');
-get_Local_Stroage_password = localStorage.getItem('password');
-
-if(!get_Local_Storage_email || !get_Local_Stroage_password){
-        alert("No such record found in database");
-}
-
-if(user_email.toString() == get_Local_Storage_email.toString() && user_password == get_Local_Stroage_password){
-        window.location.href = "booking.html?timestamp=" + new Date().getTime();
-        // alert("Login Successful, continue to Book Appointment!");
-}
-else{
-        alert("Invalid user details");
-}
-
-
-});
-});
-
-</script>
 <script src="/validate.js"></script>
 </body>
 </html>
