@@ -281,7 +281,6 @@
 
 }
 
-
 .appointment{
     width: 250px;
     float: left;
@@ -298,6 +297,8 @@
 }
 
 
+
+
 .header-media{
     width: 100% !important;
 }
@@ -305,11 +306,6 @@
 .medi-nav{
     margin-right: 100px !important;
 }
-
-.ul-class,.li{
-    margin-bottom: 100px !important;
-}
-
 
 .asp-logo{
     font-size: 20px !important;
@@ -319,7 +315,6 @@
 .medi-nav{
     width: 80% !important;
 }
-
 
 }
 
