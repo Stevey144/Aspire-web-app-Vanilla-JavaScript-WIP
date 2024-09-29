@@ -29,7 +29,8 @@ function SingUp(){
 
         localStorage.setItem('email', user_email);
         localStorage.setItem('password',user_password);
-        window.location.href = "https://github.com/Stevey144/Track_Invoice_Details";
+        window.location.href = "https://main--aesthetic-hamster-441e6d.netlify.app/appointment.html";
+        
         alert("Success, please proceed to sign in Page to book Appointment");
 }
 
