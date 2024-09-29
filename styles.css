@@ -223,3 +223,16 @@
     background-color:blueviolet !important;
 }
 
+@media screen  and (max-width:800px){
+
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .container{
+        width: 900px !important;
+         margin: auto !important;
+    }
+    
+}
+
