@@ -283,6 +283,23 @@
         border-radius: 10px;
     }
 
+
+    .images-for-service-type{
+        width:900px !important;
+        min-height: 500px;
+        margin: auto;
+    }
+
+
+    .image-service{
+        width: 200px;
+        height: 300px;
+        border-radius: 100%;
+        float: left;
+        margin: 20px;
+        padding: 10px;
+    }
+
     
 }
 
