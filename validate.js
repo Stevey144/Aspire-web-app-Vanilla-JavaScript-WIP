@@ -1,3 +1,29 @@
+$(document).ready(function() {
+
+        // jQuery click event for the button
+        $('#btn-submit-form').on('click', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get the email and password values
+            var user_email = $('#Email').val();
+            var user_password = $('#Password').val();
+
+            // Basic validation to check if email and password are provided
+            if (user_email === '' || user_password === '') {
+                alert('Please fill out both email and password fields.');
+                return; // Stop if validation fails
+            }
+
+            // Store the email and password in localStorage
+            localStorage.setItem('email', user_email);
+            localStorage.setItem('password', user_password);
+
+            // Redirect to appointment.html with a timestamp
+            window.location.href = "appointment.html?timestamp=" + new Date().getTime();
+        });
+
+    });
+
 function validate(){
         var firstname;
         var lastname;
@@ -13,11 +39,39 @@ function validate(){
         disability = document.getElementById("disability").value;
         address = document.getElementById("address").value;
         alert("Thank you " + firstname +  " " + lastname + " for contacting us, Our representative will get back to you with the mobile number your provided which is  " + phone_number);
-       
+    
 }
 
 
 function SingUp(){
+
+
+        $(document).ready(function() {
+
+                // jQuery click event for the button
+                $('#btn-submit-form').on('click', function(event) {
+                    event.preventDefault(); // Prevent default form submission
+    
+                    // Get the email and password values
+                    var user_email = $('#Email').val();
+                    var user_password = $('#Password').val();
+    
+                    // Basic validation to check if email and password are provided
+                    if (user_email === '' || user_password === '') {
+                        alert('Please fill out both email and password fields.');
+                        return; // Stop if validation fails
+                    }
+    
+                    // Store the email and password in localStorage
+                    localStorage.setItem('email', user_email);
+                    localStorage.setItem('password', user_password);
+    
+                    // Redirect to appointment.html with a timestamp
+                    window.location.href = "appointment.html?timestamp=" + new Date().getTime();
+                });
+    
+            });
+
 
         var firstname;
         var lastname;
