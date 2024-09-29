@@ -225,6 +225,13 @@
 
 @media screen  and (max-width:800px){
 
+    *{
+    box-sizing: border-box; /* Standard */
+    -webkit-box-sizing: border-box; /* Safari and older Chrome */
+    -moz-box-sizing: border-box; /* Firefox */
+    -ms-box-sizing: border-box; /* Older versions of Internet Explorer and Edge */
+    }
+
 .container{
     /* Ensure cross-browser support for box-sizing */
     width: 1100px;
@@ -284,6 +291,35 @@
     margin: 35px 0px 0px 600px !important;
     padding: 3px;
 }
+
+.signup-container{
+     width: 700px;
+     margin: auto;
+}
+
+
+.header-media{
+    width: 100% !important;
+}
+
+.medi-nav{
+    margin-right: 100px !important;
+}
+
+.ul-class,.li{
+    margin-bottom: 100px !important;
+}
+
+
+.asp-logo{
+    font-size: 20px !important;
+}
+
+
+.medi-nav{
+    width: 80% !important;
+}
+
 
 }
 
