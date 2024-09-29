@@ -65,7 +65,6 @@ function SignIn(){
 
 
 function bookAppointment(){
-
          var date_of_appointment;
          var reason_for_appointment;
          date_of_appointment = document.getElementById('date').value;
@@ -77,6 +76,4 @@ function bookAppointment(){
        else{
                 alert("unable to schedule you for an appointment");
          }
-
-
 }
