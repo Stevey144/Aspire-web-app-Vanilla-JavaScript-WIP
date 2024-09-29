@@ -19,8 +19,6 @@ function validate(){
 
 function SingUp(){
 
-        var firstname;
-        var lastname;
         var user_email;
         var user_password;
 
@@ -29,7 +27,7 @@ function SingUp(){
 
         localStorage.setItem('email', user_email);
         localStorage.setItem('password',user_password);
-        window.location.href = 'appointment.html';
+        window.location.href = 'booking.html';
         alert("Success, please proceed to sign in Page to book Appointment");
 }
 
