@@ -29,7 +29,7 @@ function SingUp(){
 
         localStorage.setItem('email', user_email);
         localStorage.setItem('password',user_password);
-        window.location.href = "appointment.html";
+        window.location.replace('appointment.html');
         alert("Success, please proceed to sign in Page to book Appointment");
 }
 
