@@ -67,7 +67,7 @@ $(document).ready(function() {
                 var firstname = $('#FirstName').val();
                 var lastname = $('#last').val();
                 var mobile_number = $('#phonenumber').val();
-                alert("Yaayy!!, Thank you " + firstname + " " + lastname + "for contacting us, Our representative will get back to you on the mobile number you provided which is " + mobile_number);
+                alert("Yaayy!!  Thank you " + firstname + " " + lastname + " for contacting us, Our representative will get back to you on the mobile number you provided which is " + mobile_number);
          });
 
 
