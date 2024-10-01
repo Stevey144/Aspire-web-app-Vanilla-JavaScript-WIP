@@ -295,13 +295,9 @@
     background-color: orange;
     border-radius: 10px;
     font-family: tahoma;
-    margin: 0px 0px 5px 140px !important;
+    margin: 0px 0px 50px 140px !important;
     padding: 3px;
     font-size: 10px !important;
-}
-.h2-text-appointment{
-    margin-bottom: 50px !important;
-
 }
 
 .images-for-service-type{
