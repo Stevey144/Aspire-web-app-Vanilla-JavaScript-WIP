@@ -62,6 +62,16 @@ $(document).ready(function() {
         });
 
 
+        $('#btn-contact-us').on('click', function(event) {
+                event.preventDefault(); // Prevent default form submission
+        
+        var firstname = $('#FirstName').val();
+        var lastname = $('#Lastname').val();
+        var mobile_numebr =  $('#phonenumber').val();
+        alert("Yaayy!!, Thank you " + firstname + " " + lastname + "for contacting us, Our representative will get back to you on the mobile number you provided which is " + mobile_numebr);
+        });
+
+
 
         $('#btn-booking').on('click', function(event) {
                 event.preventDefault(); // Prevent default form submission
