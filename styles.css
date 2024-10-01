@@ -224,6 +224,50 @@
     background-color:blueviolet !important;
 }
 
+
+@media only screen and (min-width:400px) and (max-width:590px){
+
+    .container .logo h1{
+        color: red;
+        font-family: verdana;
+        font-size: 15px !important;
+    }
+
+    .container .nav{
+        float: right;
+        width:67%;
+    }
+
+
+    .container .nav ul li a{
+        text-decoration: none;
+        margin: 9px;
+        font-size: 12px !important;
+        font-family: verdana;
+        color: white;
+    }
+
+    .container .nav ul li{
+        float: left !important;
+    }
+
+
+    .appointment{
+        width: 150px !important;
+        float: left;
+        background-color: orange;
+        border-radius: 10px;
+        font-family: tahoma;
+        margin: 35px -50px 0px 600px !important;
+    }
+
+
+    .banner{
+       margin-bottom: -200px !important;
+    }
+
+}
+
 @media only screen and (min-width:350px) and (max-width:800px){
     *{
         box-sizing: border-box; /* Standard */
@@ -369,36 +413,3 @@
 
 }
 
-@media only screen and (min-width:100px) and (max-width:349px){
-
-    .container .logo h1{
-        color: white;
-        font-family: verdana;
-        font-size: 15px;
-    }
-
-
-    .container .nav ul li a{
-        text-decoration: none;
-        margin: 9px;
-        padding: 5px;
-        font-size: 10px;
-        font-family: verdana;
-        color: white;
-    }
-
-    .container .nav ul li{
-        margin-right: 30px !important;
-    }
-
-    .banner{
-        /* width: 100% !important;
-        height: 500px;
-        background-image: url(/Asset/support-worker1.jpg);
-        background-size:contain;
-        background-repeat: no-repeat; */
-    }
-
-
-
-}
