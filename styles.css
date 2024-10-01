@@ -92,6 +92,11 @@
     color:white;    
 }
 
+.question-text{
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 .images-for-service-type{
     width:950px;
@@ -176,7 +181,7 @@
     font-weight: bold;
 }
 
-.section-for-sign-up{
+.section-for-sign-in{
     width: 500px !important;
     margin: auto !important;
 }
@@ -229,6 +234,12 @@
     background-color:blueviolet !important;
 }
 
+.section-for-sign-up{
+    width: 350px !important;
+    margin: auto !important;
+
+}
+
 
 @media only screen and (min-width:370px) and (max-width:602px){
 
@@ -271,9 +282,15 @@
        margin-bottom: -200px !important;
     }
 
+    .section-for-sign-in{
+        width: 100% !important;
+        margin: auto !important;
+    }
+
     .section-for-sign-up{
         width: 100% !important;
         margin: auto !important;
+    
     }
 
 }
@@ -395,9 +412,15 @@
     height: 400px;
 }
 
+.section-for-sign-in{
+    width: 100% !important;
+    margin: auto !important;
+}
+
 .section-for-sign-up{
     width: 100% !important;
     margin: auto !important;
+
 }
 
 }
