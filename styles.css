@@ -92,6 +92,7 @@
     color:white;    
 }
 
+
 .images-for-service-type{
     width:950px;
     min-height: 500px;
@@ -223,7 +224,7 @@
     background-color:blueviolet !important;
 }
 
-@media screen  and (max-width:800px){
+@media only screen and (min-width:350px) and (max-width:800px){
 
     *{
     box-sizing: border-box; /* Standard */
@@ -232,16 +233,24 @@
     -ms-box-sizing: border-box; /* Older versions of Internet Explorer and Edge */
     }
 
-.container{
-    /* Ensure cross-browser support for box-sizing */
-    width: 1100px;
+  .container{
+    width: 100% !important;
     min-height: 700px;
-    margin: auto;
-    display: grid;
-    box-sizing: border-box; /* Standard */
-    -webkit-box-sizing: border-box; /* Safari and older Chrome */
-    -moz-box-sizing: border-box; /* Firefox */
-    -ms-box-sizing: border-box; /* Older versions of Internet Explorer and Edge */
+    background-color:#eee;
+  }
+
+  .container .header{
+    width: 100%;
+    height: 100px;
+    background-color:burlywood;
+    padding: 10px;
+}
+
+.container .logo h1{
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    margin-top: 25px;
 }
 
 .txtsearch, .btn-search{
@@ -253,16 +262,16 @@
     text-decoration: none;
     margin: 4px;
     padding: 3px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: verdana;
     color: white;
 }
 
 .banner{
     width: 100% !important;
-    height: 700px;
+    height: 500px;
     background-image: url(/Asset/support-worker1.jpg);
-    background-size: cover;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 
@@ -282,13 +291,57 @@
 }
 
 .appointment{
-    width: 250px;
+    width: 200px;
     float: left;
     background-color: orange;
     border-radius: 10px;
     font-family: tahoma;
-    margin: 35px 0px 0px 600px !important;
+    margin: 10px 0px 5px 300px !important;
     padding: 3px;
+    font-size: 10px !important;
+}
+
+
+.images-for-service-type{
+    width:100%;
+    min-height: 500px;
+    margin: auto;
+}
+
+.image-service{
+    width: 200px;
+    height: 300px;
+    border-radius: 100%;
+    float: left;
+    margin: 10px 0px 10px 100px !important;
+    padding: 10px;
+}
+
+.h-m{
+    font-size: 20px;
+}
+.our-services{
+    font-size: 20px;
+}
+
+.counseling{
+    width: 100%;
+    clear: both;
+}
+
+
+.counseling h1{
+    width: 100%;
+    text-align: center;
+    font-family: verdana;
+    padding: 30px;
+    color:burlywood;
+    font-size: 20px !important;
+}
+
+.skilled-counsellor{
+    width:100%;
+    height: 400px;
 }
 
 .signup-container{
@@ -317,4 +370,3 @@
 }
 
 }
-
