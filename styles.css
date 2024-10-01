@@ -176,6 +176,11 @@
     font-weight: bold;
 }
 
+.section-for-sign-up{
+    width: 500px !important;
+    margin: auto !important;
+}
+
 .footer{
     width: 100%;
     height: 80px;
@@ -264,6 +269,11 @@
 
     .banner{
        margin-bottom: -200px !important;
+    }
+
+    .section-for-sign-up{
+        width: 100% !important;
+        margin: auto !important;
     }
 
 }
@@ -383,6 +393,11 @@
 .skilled-counsellor{
     width:100%;
     height: 400px;
+}
+
+.section-for-sign-up{
+    width: 100% !important;
+    margin: auto !important;
 }
 
 }
