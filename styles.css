@@ -181,10 +181,7 @@
     font-weight: bold;
 }
 
-.section-for-sign-in{
-    width: 500px !important;
-    margin: auto !important;
-}
+
 
 .footer{
     width: 100%;
@@ -230,6 +227,11 @@
 .appointment-text{
     text-decoration: none;
 }
+
+.h1-text-for-appoitment{
+    font-size: 20px !important;
+    font-family: 'Courier New', Courier, monospace;
+}
 .appointment:hover{
     background-color:blueviolet !important;
 }
@@ -238,6 +240,11 @@
     width: 350px !important;
     margin: auto !important;
 
+}
+
+.section-for-sign-in{
+    width: 350px !important;
+    margin: auto !important;
 }
 
 

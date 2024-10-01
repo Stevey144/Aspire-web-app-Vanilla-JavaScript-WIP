@@ -19,6 +19,8 @@ $(document).ready(function() {
             localStorage.setItem('email', user_email);
             localStorage.setItem('password', user_password);
 
+            alert("Success! please proceed to sign in page to continue.");
+
             // Redirect to appointment.html with a timestamp
             window.location.href = "appointment.html?timestamp=" + new Date().getTime();
         });
@@ -50,7 +52,7 @@ $(document).ready(function() {
         
         if(user_email.toString() == get_Local_Storage_email.toString() && user_password == get_Local_Stroage_password){
                 window.location.href = "booking.html?timestamp=" + new Date().getTime();
-                // alert("Login Successful, continue to Book Appointment!");
+                alert("Login Successful, continue to Book Appointment!");
         }
         else{
                 alert("Invalid user details");
