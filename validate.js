@@ -12,7 +12,7 @@ $(document).ready(function() {
             var last = $('#last').val();
 
             // Basic validation to check if email and password are provided
-            if (user_email === '' || user_password === '' || FirstName || last) {
+            if (user_email === '' || user_password === '' || FirstName == '' || last === '') {
                 alert('all fields are required.');
                 return; // Stop if validation fails
             }
