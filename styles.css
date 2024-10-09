@@ -263,9 +263,6 @@
         display: inline-flex !important;
 
      }
-          .container .nav ul li{
-            /* display: inline-flex !important; */
-          }
 
         .container .nav ul li a{
             text-decoration: none;
