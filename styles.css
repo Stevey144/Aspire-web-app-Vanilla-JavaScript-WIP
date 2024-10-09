@@ -250,6 +250,7 @@
 
 
 @media only screen and (min-width:370px) and (max-width:602px){
+    
 
     .container .logo h1{
         color: red;
@@ -265,7 +266,6 @@
 
     .container .nav ul li a{
         text-decoration: none;
-        margin: 9px;
         font-size: 12px !important;
         font-family: verdana;
         color: white;
@@ -273,7 +273,16 @@
 
     .container .nav ul li{
         float: left !important;
+
     }
+
+      .nav{
+        width: 70% !important;
+      }
+
+      ul{
+        width: 100% !important;
+      }
 
 
     .appointment{
