@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 .container{
     width: 1200px;
     min-height: 700px;
@@ -247,8 +248,18 @@
     margin: auto !important;
 }
  @media only screen and (min-width:370px) and (max-width:602px){
+
+    *{
+        background-color:red;
+    }
+    .txtsearch{
+        display:none;
+        
+    }
+
     .container{
         width: 100% !important;
+        background-color: #eee !important;
     }
      
     .container .logo h1{
@@ -347,6 +358,7 @@
 
 .txtsearch, .btn-search{
     visibility: hidden;
+    display:none;
 }
 
 
