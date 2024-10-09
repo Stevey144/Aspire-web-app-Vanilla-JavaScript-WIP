@@ -248,7 +248,7 @@
     margin: auto !important;
 }
  @media only screen and (min-width:370px) and (max-width:602px){
-
+   
     .container{
         width: 100% !important;
         background-color: #eee !important;
@@ -264,7 +264,7 @@
 
      }
           .container .nav ul li{
-            display: inline-flex !important;
+            /* display: inline-flex !important; */
           }
 
         .container .nav ul li a{
