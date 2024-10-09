@@ -246,46 +246,33 @@
     width: 350px !important;
     margin: auto !important;
 }
-
-
-
-@media only screen and (min-width:370px) and (max-width:602px){
-
+ @media only screen and (min-width:370px) and (max-width:602px){
     .container{
         width: 100% !important;
     }
-    
+     
     .container .logo h1{
-        color: red;
         font-family: verdana;
         font-size: 15px !important;
     }
-
-    .container .nav{
-        float: right;
-    }
-
-
-    .container .nav ul li a{
-        text-decoration: none;
-        font-size: 12px !important;
-        font-family: verdana;
-        color: white;
-    }
-
-    .container .nav ul li{
-        float: left !important;
-
-    }
-
-      .nav{
+     .nav{
         width: 70% !important;
-      }
+        display: inline-flex !important;
 
-      ul{
-        width: 100% !important;
-      }
+     }
+          .container .nav ul li{
+            display: inline-flex !important;
+          }
 
+        .container .nav ul li a{
+            text-decoration: none;
+            font-size: 12px !important;
+            font-family: verdana;
+            color: white;
+            margin: 0  !important;
+            display: inline !important;
+            flex-shrink:initial;
+        }
 
     .appointment{
         width: 150px !important;
