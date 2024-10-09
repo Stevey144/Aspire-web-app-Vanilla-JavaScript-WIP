@@ -7,11 +7,13 @@ $(document).ready(function() {
 
             // Get the email and password values
             var user_email = $('#Email').val();
-            var user_password = $('#Password').val();
+            var user_password = $('#Password').val();    
+            var FirstName = $('#FirstName').val();
+            var last = $('#last').val();
 
             // Basic validation to check if email and password are provided
-            if (user_email === '' || user_password === '') {
-                alert('Please fill out both email and password fields.');
+            if (user_email === '' || user_password === '' || FirstName || last) {
+                alert('all fields are required.');
                 return; // Stop if validation fails
             }
 
