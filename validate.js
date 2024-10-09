@@ -66,8 +66,19 @@ $(document).ready(function() {
                 event.preventDefault(); // Prevent default form submission
                 var firstname = $('#FirstName').val();
                 var lastname = $('#last').val();
+                var gender = $('#gender-type').val();
+                var disability = $('#disability').val();
+                var address = $('#address').val();
                 var mobile_number = $('#phonenumber').val();
+
+                if(firstname && lastname && gender && disability && address && mobile_number){
                 alert("Yaayy!!  Thank you " + firstname + " " + lastname + " for contacting us, Our representative will get back to you on the mobile number you provided which is " + mobile_number);
+                location.reload();
+                }
+                else{
+                        alert("all field marked with * are required");
+                }
+
          });
 
 
