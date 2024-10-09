@@ -249,9 +249,6 @@
 }
  @media only screen and (min-width:370px) and (max-width:602px){
 
-    *{
-        background-color:red;
-    }
     .txtsearch{
         display:none;
         
