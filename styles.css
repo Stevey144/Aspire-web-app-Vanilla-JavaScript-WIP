@@ -335,6 +335,12 @@
             margin-bottom: 10px !important;
         }
 
+        .container form, label,input{
+            font-size: 20px;
+            border-radius: 10px;
+            width: 320px;
+        }
+
 }
 
 
@@ -487,6 +493,16 @@
 
     #gender-type{
         font-size: 20px !important;
+    }
+
+    .pad-select{
+        margin-bottom: 10px !important;
+    }
+
+    .container form, label,input{
+        font-size: 20px;
+        border-radius: 10px;
+        width: 320px;
     }
 
 }
