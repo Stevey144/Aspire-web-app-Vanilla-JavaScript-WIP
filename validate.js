@@ -2,14 +2,14 @@
 $(document).ready(function() {
 
         // jQuery click event for the button
-        $('#btn-submit-form').on('click', function(event) {
+        $('#sign-up').on('click', function(event) {
             event.preventDefault(); // Prevent default form submission
 
-            // Get the email and password values
+            //Get the email and password values
             var user_email = $('#Email').val();
             var user_password = $('#Password').val();    
             var FirstName = $('#FirstName').val();
-            var last = $('#last').val();
+            var last = $('#Lastname').val();
 
             // Basic validation to check if email and password are provided
             if (user_email === '' || user_password === '' || FirstName == '' || last === '') {
@@ -20,6 +20,10 @@ $(document).ready(function() {
             // Store the email and password in localStorage
             localStorage.setItem('email', user_email);
             localStorage.setItem('password', user_password);
+            localStorage.setItem('firstname', FirstName);
+            localStorage.setItem('lastname', last);
+
+
 
             alert("Success! please proceed to sign in page to continue.");
 
