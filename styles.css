@@ -166,9 +166,7 @@
 #disability{
     margin-right: 20px;
 }
-.lbl-disability{
-    margin-left: 20px;
-}
+
 .container select{
     font-size: 15px !important;
     border-radius: 5px;
@@ -200,11 +198,7 @@
     background-color:blueviolet;
     color: white;
 }
-.select-div{
-    display: flex !important;
-    justify-content: space-between;
-    font-size: 8px !important;
-}
+
 
 
 .pad-select{
@@ -247,6 +241,12 @@
     width: 350px !important;
     margin: auto !important;
 }
+
+.select-div{
+    display: flex !important;
+    justify-content: space-between;
+    font-size: 8px !important;
+    }
  @media only screen and (min-width:370px) and (max-width:602px){
    
     .container{
@@ -312,6 +312,25 @@
         font-size: 25px;
         color: white;
     }
+
+       .lbl-disability{
+        margin-left:0px !important;
+        }
+    
+        .select-div{
+        display: block !important;
+        font-size: 8px !important;
+        width: 100% !important;
+        }
+
+        #disability{
+            width: 100% !important;
+            font-size: 20px !important;
+        
+        }
+        .pad-select{
+            margin-bottom: 10px !important;
+        }
 
 }
 
@@ -444,6 +463,24 @@
     width: 350px !important;
     margin: auto !important;
 }
+
+
+
+.lbl-disability{
+    margin-left:0px !important;
+    }
+
+    .select-div{
+    display: block !important;
+    font-size: 8px !important;
+    width: 100% !important;
+    }
+
+    #disability{
+        width: 100% !important;
+        font-size: 20px !important;
+    
+    }
 
 }
 
