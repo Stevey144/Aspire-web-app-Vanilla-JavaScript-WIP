@@ -320,13 +320,12 @@
         .select-div{
         display: block !important;
         font-size: 8px !important;
-        width: 100% !important;
         }
 
         #disability{
-            width: 100% !important;
+            width: 40px !important;
             font-size: 20px !important;
-        
+            min-width: 200px !important;
         }
         .pad-select{
             margin-bottom: 10px !important;
@@ -477,8 +476,9 @@
     }
 
     #disability{
-        width: 100% !important;
-        font-size: 20px !important;
+            width: 40px !important;
+            font-size: 20px !important;
+            min-width: 200px !important;
     
     }
 
