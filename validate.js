@@ -100,6 +100,7 @@ $(document).ready(function() {
                 
                          if(date_of_appointment && reason_for_appointment){
                             alert("you have been successfully scheduled for an appointment for the given date " + date_of_appointment + " please plan to attend.");
+                            location.reload();
                          }
                        else{
                                 alert("unable to schedule you for an appointment");
